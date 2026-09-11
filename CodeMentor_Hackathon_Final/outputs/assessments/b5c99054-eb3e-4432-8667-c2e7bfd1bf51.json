@@ -1,0 +1,42 @@
+{
+  "score": 80.0,
+  "score_rationale": "Score is the sum of rubric points supported by static inspection or observed approved test results.",
+  "requirements": [
+    {
+      "requirement": "Defines calculate(a, b, operation) with the required parameters.",
+      "status": "met",
+      "evidence": "Static source inspection found the required calculate(a, b, operation) signature.",
+      "points_awarded": 20.0
+    },
+    {
+      "requirement": "Correctly handles addition, subtraction, multiplication, and division.",
+      "status": "met",
+      "evidence": "addition: passed (observed subprocess result); subtraction: passed (observed subprocess result); multiplication: passed (observed subprocess result); division: passed (observed subprocess result)",
+      "points_awarded": 40.0
+    },
+    {
+      "requirement": "Raises ValueError for an unsupported operation.",
+      "status": "met",
+      "evidence": "unsupported operation: passed (observed subprocess result)",
+      "points_awarded": 20.0
+    },
+    {
+      "requirement": "Raises ValueError when division by zero is requested.",
+      "status": "not_met",
+      "evidence": "division by zero: failed (observed subprocess result)",
+      "points_awarded": 0.0
+    }
+  ],
+  "identified_problems": [
+    "Verification did not satisfy: Raises ValueError when division by zero is requested."
+  ],
+  "student_feedback": "Review the identified requirements and revise the code using the observed evidence.",
+  "evidence_limitations": "Static inspection does not prove runtime behavior. Only listed approved subprocess cases were executed; no other tests or commands were run.",
+  "ai_mentor_feedback": {
+    "summary": "AI explanation was unavailable; the evidence-backed assessment is still valid.",
+    "strengths": [],
+    "issues": [],
+    "next_steps": [],
+    "status": "unavailable"
+  }
+}

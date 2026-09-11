@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CodeMentor Trajectory Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_id", "timestamp", "event_type", "run_id", "success"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "event_type": {"type": "string", "enum": ["agent_started", "assignment_loaded", "code_inspected", "verification_needed", "tool_requested", "tool_validated", "tool_executed", "evidence_observed", "assessment_generated", "ai_feedback_generated", "agent_finished"]},
+    "run_id": {"type": "string"}, "case_id": {"type": "string"}, "tool_name": {"type": "string"},
+    "tool_arguments": {"type": "object"}, "result_summary": {},
+    "evidence_type": {"type": "string", "enum": ["STATIC_EVIDENCE", "RUNTIME_EVIDENCE"]},
+    "success": {"type": "boolean"}, "details": {"type": "object"}
+  }
+}

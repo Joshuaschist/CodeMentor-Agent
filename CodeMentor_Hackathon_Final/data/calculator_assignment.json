@@ -1,0 +1,11 @@
+{
+  "title": "Simple Calculator",
+  "description": "Write a function named calculate(a, b, operation) that returns the result of adding, subtracting, multiplying, or dividing two numbers. operation is one of '+', '-', '*', or '/'. Raise ValueError for an unsupported operation and for division by zero.",
+  "rubric": [
+    {"requirement": "Defines calculate(a, b, operation) with the required parameters.", "points": 20},
+    {"requirement": "Correctly handles addition, subtraction, multiplication, and division.", "points": 40},
+    {"requirement": "Raises ValueError for an unsupported operation.", "points": 20},
+    {"requirement": "Raises ValueError when division by zero is requested.", "points": 20}
+  ],
+  "maximum_score": 100
+}

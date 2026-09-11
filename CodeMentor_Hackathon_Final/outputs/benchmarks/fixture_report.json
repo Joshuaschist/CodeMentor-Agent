@@ -1,0 +1,247 @@
+{
+  "mode": "FIXTURE",
+  "generated_at": "2026-08-31T12:28:28.797595+00:00",
+  "comparison": {
+    "case_count": 12,
+    "systems": {
+      "baseline": {
+        "summary": {
+          "average_score_error": 28.333333333333332,
+          "requirement_accuracy": 0.6875,
+          "average_requirement_score_error": 28.333333333333332,
+          "defect_detection_rate": 0.25,
+          "unsupported_runtime_claim_rate": 0.25
+        },
+        "per_case": [
+          {
+            "case_id": "calculator_correct",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 1.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "division_by_zero",
+            "score_error": 20,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 20,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 1.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "incorrect_subtraction",
+            "score_error": 40,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 40,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "missing_multiplication",
+            "score_error": 20,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 20,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "unsupported_operation_failure",
+            "score_error": 20,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 20,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 1.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "syntax_error",
+            "score_error": 20,
+            "requirement_accuracy": 0.0,
+            "requirement_score_error": 20,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "static_looking_runtime_failure",
+            "score_error": 40,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 40,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "partial_add_subtract",
+            "score_error": 20,
+            "requirement_accuracy": 0.5,
+            "requirement_score_error": 20,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "subtle_logic_error",
+            "score_error": 40,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 40,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "incorrect_return_behavior",
+            "score_error": 40,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 40,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "negative_input_boundary",
+            "score_error": 40,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 40,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "hard_coded_overfit_challenge",
+            "score_error": 40,
+            "requirement_accuracy": 0.75,
+            "requirement_score_error": 40,
+            "defect_detection": 0.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          }
+        ]
+      },
+      "agent": {
+        "summary": {
+          "average_score_error": 0.0,
+          "requirement_accuracy": 1.0,
+          "average_requirement_score_error": 0.0,
+          "defect_detection_rate": 1.0,
+          "unsupported_runtime_claim_rate": 0.0
+        },
+        "per_case": [
+          {
+            "case_id": "calculator_correct",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "division_by_zero",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "incorrect_subtraction",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "missing_multiplication",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "unsupported_operation_failure",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "syntax_error",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "static_looking_runtime_failure",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "partial_add_subtract",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "subtle_logic_error",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "incorrect_return_behavior",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "negative_input_boundary",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          },
+          {
+            "case_id": "hard_coded_overfit_challenge",
+            "score_error": 0,
+            "requirement_accuracy": 1.0,
+            "requirement_score_error": 0,
+            "defect_detection": 1.0,
+            "unsupported_runtime_claim": 0.0,
+            "feedback_runtime_claim_without_evidence": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "example-calculator-zero-001",
+  "case_id": "division_by_zero",
+  "events": [
+    {"event_id":"e1","timestamp":"2026-08-30T10:00:00+00:00","event_type":"agent_started","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"details":{"agent":"CodeMentorAgent"}},
+    {"event_id":"e2","timestamp":"2026-08-30T10:00:01+00:00","event_type":"assignment_loaded","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"result_summary":{"title":"Simple Calculator","rubric_count":4}},
+    {"event_id":"e3","timestamp":"2026-08-30T10:00:02+00:00","event_type":"code_inspected","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"result_summary":{"parseable":true,"function_count":1}},
+    {"event_id":"e4","timestamp":"2026-08-30T10:00:02+00:00","event_type":"evidence_observed","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"evidence_type":"STATIC_EVIDENCE","result_summary":{"parseable":true,"functions":["calculate"]}},
+    {"event_id":"e5","timestamp":"2026-08-30T10:00:03+00:00","event_type":"verification_needed","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"result_summary":{"needed":true,"case_count":6}},
+    {"event_id":"e6","timestamp":"2026-08-30T10:00:03+00:00","event_type":"tool_requested","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"tool_name":"run_python_tests","tool_arguments":{"test_cases":"[sanitized; 6 approved cases]"}},
+    {"event_id":"e7","timestamp":"2026-08-30T10:00:04+00:00","event_type":"tool_executed","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"tool_name":"run_python_tests","result_summary":{"cases":[{"name":"division by zero","passed":false,"exit_code":0,"timed_out":false}]}},
+    {"event_id":"e8","timestamp":"2026-08-30T10:00:04+00:00","event_type":"evidence_observed","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"evidence_type":"RUNTIME_EVIDENCE","result_summary":{"observed":[{"case":"division by zero","exception_type":"ZeroDivisionError","passed":false}]},"details":{"tool_execution_event_id":"e7"}},
+    {"event_id":"e9","timestamp":"2026-08-30T10:00:05+00:00","event_type":"assessment_generated","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true,"result_summary":{"score":80,"requirement_statuses":["met","met","met","not_met"]}},
+    {"event_id":"e10","timestamp":"2026-08-30T10:00:05+00:00","event_type":"agent_finished","run_id":"example-calculator-zero-001","case_id":"division_by_zero","success":true}
+  ]
+}
